@@ -8,7 +8,7 @@ var scl = 40;
 
 function setup() {
   createCanvas(800, 800);
-  frameRate(10);
+  frameRate(24);
   cols = floor(width/scl);
   rows = floor(height/scl);
   snake = new Snake();
@@ -35,22 +35,26 @@ function draw() {
   food.show();
   snake.show();
 }
-
 function keyPressed() {
-  if(keyCode === UP_ARROW) {
-    snake.xspeed = 0;
-    snake.yspeed = -1;
-  }
-  else if(keyCode === DOWN_ARROW) {
-    snake.xspeed = 0;
-    snake.yspeed = 1;
-  }
-  else if(keyCode === RIGHT_ARROW) {
-    snake.yspeed = 0;
-    snake.xspeed = 1;
-  }
-  else if(keyCode === LEFT_ARROW) {
-    snake.yspeed = 0;
-    snake.xspeed = -1;
+  switch(keyCode) {
+    case UP_ARROW:
+      snake.xspeed = 0;
+      snake.yspeed = -1;
+      break;
+    case DOWN_ARROW:
+      snake.xspeed = 0;
+      snake.yspeed = 1;
+      break;
+    case RIGHT_ARROW:
+      snake.xspeed = 1;
+      snake.yspeed = 0;
+      break;
+    case LEFT_ARROW:
+      snake.xspeed = -1;
+      snake.yspeed = 0;
+      break;
+    case SHIFT:
+      snake.addTail();
+      break;
   }
 }

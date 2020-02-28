@@ -1,7 +1,7 @@
 class Snake {
     constructor() {
         this.body = []
-        this.body[0] = createVector(0, 0);
+        this.body[0] = createVector(width/2, height/2);
         this.xspeed = 0;
         this.yspeed = 0;
     }

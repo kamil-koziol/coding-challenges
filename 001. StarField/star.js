@@ -8,6 +8,7 @@ class Star {
 
     update() {
         this.z -= this.speed;
+        
         if (this.z < 1) {
             this.z = width;
         }

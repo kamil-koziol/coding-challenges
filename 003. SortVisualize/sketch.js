@@ -1,13 +1,13 @@
 var arr = [];
 var minimal;
 var maximal;
-var items = 100;
+var items = 50;
 var counter = 0;
 
 function setup() {
   createCanvas(800, 800);
   
-  for(var i=0; i<items; i++) {
+  for(var i=0; i<=items; i++) {
     arr.push(i);
   }
   background(0);
