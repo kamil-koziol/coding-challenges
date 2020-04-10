@@ -11,16 +11,17 @@ var particles = [];
 var flowfield;
 
 function setup() {
-  createCanvas(2000, 2000);
+  createCanvas(400, 400);
   cols = floor(width / scl)
   rows = floor(height / scl)
   fr = createP('');
 
   flowfield = new Array(cols*rows);
 
-  for (var i = 0; i < 10000; i++) {
+  for (var i = 0; i < 2500; i++) {
     particles[i] = new Particle();
   }
+
 }
 
 function draw() {
