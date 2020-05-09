@@ -49,7 +49,7 @@ function draw() {
     yoff += inc
   }
 
-  zoff += 0.004
+  zoff += 0.003
 
   for (var i = 0; i < particles.length; i++) {
     particles[i].follow(flowfield)
