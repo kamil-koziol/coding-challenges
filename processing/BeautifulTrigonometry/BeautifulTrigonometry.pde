@@ -2,10 +2,10 @@ float angle = 0;
 int d;
 int r;
 
-int dotsAmount = 2;
-boolean showLines = true;
+int dotsAmount = 3;
+boolean showLines = false;
 boolean showCirclingDot = false;
-boolean showCircle = true;
+boolean showCircle = false;
 
 void setup(){
   size(500, 500);
