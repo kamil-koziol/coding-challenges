@@ -8,11 +8,9 @@ Go to https://kamil-koziol.github.io/coding-challenges/p5/projects/ to see actua
 
 # Projects
 
----
-
 ### Genetic Algorithms
 
-[SmartRockets](https://kamil-koziol.github.io/coding-challenges/p5/projects/BarnsleyFern)
+[SmartRockets](https://kamil-koziol.github.io/coding-challenges/p5/projects/SmartRockets)
 
 ### Fractals
 
