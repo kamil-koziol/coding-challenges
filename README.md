@@ -5,3 +5,35 @@ Shout out to [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydff
 See all p5 and processing challenges [here](https://www.youtube.com/watch?v=17WoOqgXsRM&list=PLRqwX-V7Uu6ZiZxtDDRCi6uhfTH4FilpH)
 
 Go to https://kamil-koziol.github.io/coding-challenges/p5/projects/ to see actual p5 project in action
+
+[BarnsleyFern](https://kamil-koziol.github.io/coding-challenges/p5/projects/BarnsleyFern)
+
+[PerlinNoise1](https://kamil-koziol.github.io/coding-challenges/p5/projects/PerlinNoise1)
+
+[PerlinNoise2](https://kamil-koziol.github.io/coding-challenges/p5/projects/PerlinNoise2)
+
+[PerlinNoise3](https://kamil-koziol.github.io/coding-challenges/p5/projects/PerlinNoise3)
+
+[SortVisualize2](https://kamil-koziol.github.io/coding-challenges/p5/projects/SortVisualize2)
+
+[Cardioid](https://kamil-koziol.github.io/coding-challenges/p5/projects/Cardioid)
+
+[StarField](https://kamil-koziol.github.io/coding-challenges/p5/projects/StarField)
+
+[ImageDotter](https://kamil-koziol.github.io/coding-challenges/p5/projects/ImageDotter)
+
+[TreeCanopy](https://kamil-koziol.github.io/coding-challenges/p5/projects/TreeCanopy)
+
+[MathematicalRosePatterns](https://kamil-koziol.github.io/coding-challenges/p5/projects/MathematicalRosePatterns)
+
+[Phyllotaxis](https://kamil-koziol.github.io/coding-challenges/p5/projects/Phyllotaxis)
+
+[Minesweeper](https://kamil-koziol.github.io/coding-challenges/p5/projects/Minesweeper)
+
+[Snake](https://kamil-koziol.github.io/coding-challenges/p5/projects/Snake)
+
+[Mitosis](https://kamil-koziol.github.io/coding-challenges/p5/projects/Mitosis)
+
+[SortVisualize](https://kamil-koziol.github.io/coding-challenges/p5/projects/SortVisualize)
+
+​

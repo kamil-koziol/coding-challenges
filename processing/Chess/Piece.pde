@@ -1,26 +1,41 @@
-class Piece {
-  public int value;
-  public PVector position;
-  public void move() {};
-  public void draw() {};
-  public boolean isValidMove() { return true; };
+public abstract class Piece {
+ 
+  public int column;
+  public int row;
+  
+  public PieceType type;
+  
+  
+  public Piece(int column, int row) {
+    this.column = column;
+    this.row = row;
+  }
+
+  public abstract void draw();
+  public abstract boolean isValidMove();
 }
 
 class King extends Piece {
   
   PImage img;
   
-  public int value = 0;
-  public PVector position;
+  public int column;
+  public int row;
   
-  public King(int x, int y) {
-    position = new PVector(x, y);
-    img = loadImage("pieces/white/king.png");
+  
+  public King(int column, int row) {
+    super(column, row);
+    type = PieceType.KING;
   }
   
-  public void move() {};
-  public void draw() {
-    image(img, 15 + position.x * width/8, 15 + position.y * height/8, width/8 - 30, height/8 - 30); 
+  public void move(int column, int row) {
+    this.column = column;
+    this.row = row;
   };
+  
+  public void draw() {
+    image(img, 15 + column * width/8, 15 + row * height/8, width/8 - 30, height/8 - 30); 
+  };
+  
   public boolean isValidMove() { return true; };
 }
